@@ -7,7 +7,7 @@ First bigger React project that pop in my head. Motorization site to sell expens
 React, SCSS
 
 ### HOW TO
-todo
+Open a folder with files, run `npm install` then `npm start`
 
 ### LINKS
 ...
