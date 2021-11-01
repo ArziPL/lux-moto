@@ -4,7 +4,7 @@
 First bigger project, inspired by homework assignment. I learnt a lot about React/SCSS, first time doing "few sites" with React thanks to react-router, a lot of SCSS grind through.
 
 #### DESCRIPTION
-Start page component with cool design. Login/register components with validation. Main component which takes data from public/vehicles.json, then render it with the possibility of filtering. Little components to theoretically show profile and after clicking "MAKE AN APPOINTMENT".
+Start page component with cool design. Sign in button to Login/register components with validation (log in with anything then "test/test"). Main component which takes data from public/vehicles.json, then render it with the possibility of filtering. Little components to theoretically show profile and after clicking "MAKE AN APPOINTMENT".
 
 #### USED TECHNOLOGIES
 React, SCSS
