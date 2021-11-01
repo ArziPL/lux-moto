@@ -1,14 +1,43 @@
-# lux-moto
+<h1 align="center">Welcome to lux-moto 👋</h1>
+<p>
+  <a href="https://github.com/ArziPL/lux-moto" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/ArziPL/lux-moto/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
+
+> First bigger React project
+
+### ✨ [Demo](https://github.com/ArziPL/lux-moto)
+
+## Install
+
+```sh
+npm install
+```
+
+## Usage
+
+```sh
+npm start
+```
+
+## Author
+
+👤 **Arkadiusz Ogryzek**
+
+* Github: [@ArziPL](https://github.com/ArziPL)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2021 [Arkadiusz Ogryzek](https://github.com/ArziPL).<br />
+This project is [MIT](https://github.com/ArziPL/lux-moto/blob/master/LICENSE) licensed.
+
 ***
-### DESCRIPTION
-First bigger React project that pop in my head. Motorization site to sell expensive cars/motorcycles, inspired by the assignment to school. Still in progress, most of project is almost done with little tweaks needed to be done, also there is a bit of code i am not really proud of.
-
-#### USED TECHNOLOGIES
-React, SCSS
-
-### HOW TO
-Open a folder with files, run `npm install` then `npm start`
-
-### LINKS
-...
-***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
