@@ -1,0 +1,95 @@
+.register {
+  float: right;
+  width: 30%;
+  height: 100vh;
+  background-color: white;
+  text-align: center;
+  font-size: 1.5rem;
+
+  h1 {
+    margin-top: 70px;
+  }
+
+  .register__form-wrapper {
+    position: relative;
+    top: 7%;
+
+    .register__form {
+      .register__input-wrapper {
+        margin-top: 10px;
+        width: 300px;
+        height: 100px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.5rem;
+
+        input {
+          width: 250px;
+          height: 25px;
+          font-size: 1rem;
+          border: 3px solid black;
+          transition: all 0.1s ease-in-out;
+
+          &:focus {
+            outline: none;
+            transform: scale(1.1);
+            border: 3px solid green;
+          }
+        }
+      }
+
+      .register__submit {
+        width: 100px;
+        height: 25px;
+        border: 3px solid black;
+        font-size: 1rem;
+        transition: all 0.1s ease-in-out;
+
+        @mixin submit-actions {
+          outline: none;
+          transform: scale(1.2);
+          border: 3px solid green;
+          cursor: pointer;
+        }
+
+        &:hover {
+          @include submit-actions;
+        }
+        &:focus {
+          @include submit-actions;
+        }
+      }
+
+      .register__login-link {
+        position: relative;
+        top: 10px;
+        font-size: 1rem;
+        color: #b3ab96;
+        text-decoration: underline;
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:active {
+          color: black;
+        }
+      }
+
+      .register__invalid {
+        position: relative;
+        top: 10px;
+        font-size: 1rem;
+        color: red;
+        display: none;
+      }
+    }
+  }
+}
+
+.register__decoration {
+  width: 70%;
+  height: 100vh;
+  background-image: url(../../images/motorcycle-register.jpg);
+  background-position: center;
+  background-size: 1413px 940px;
+}

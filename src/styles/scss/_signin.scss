@@ -1,0 +1,96 @@
+.signin {
+  float: left;
+  width: 30%;
+  height: 100vh;
+  background-color: white;
+  text-align: center;
+  font-size: 1.5rem;
+
+  h1 {
+    margin-top: 70px;
+  }
+
+  .signin__form-wrapper {
+    position: relative;
+    top: 7%;
+
+    .signin__form {
+      .signin__input-wrapper {
+        margin-top: 10px;
+        width: 300px;
+        height: 100px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.5rem;
+
+        input {
+          width: 250px;
+          height: 25px;
+          font-size: 1rem;
+          border: 3px solid black;
+          transition: all 0.1s ease-in-out;
+
+          &:focus {
+            outline: none;
+            transform: scale(1.1);
+            border: 3px solid green;
+          }
+        }
+      }
+
+      .signin__submit {
+        width: 100px;
+        height: 25px;
+        border: 3px solid black;
+        font-size: 1rem;
+        transition: all 0.1s ease-in-out;
+
+        @mixin submit-actions {
+          outline: none;
+          transform: scale(1.2);
+          border: 3px solid green;
+          cursor: pointer;
+        }
+
+        &:hover {
+          @include submit-actions;
+        }
+        &:focus {
+          @include submit-actions;
+        }
+      }
+
+      .signin__register-link {
+        position: relative;
+        top: 10px;
+        font-size: 1rem;
+        color: #b3ab96;
+        text-decoration: underline;
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:active {
+          color: black;
+        }
+      }
+
+      .signin__invalid {
+        position: relative;
+        top: 10px;
+        font-size: 1rem;
+        color: red;
+        display: none;
+      }
+    }
+  }
+}
+
+.signin__decoration {
+  float: right;
+  width: 70%;
+  height: 100vh;
+  background-image: url(../../images/mercedes-signin.jpg);
+  background-position: 90% 100%;
+  background-size: 1500px 1000px;
+}

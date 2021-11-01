@@ -1,0 +1,83 @@
+.appointment__wrapper {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../images/blackmaterial-profile.jpg");
+
+  // .profile__back-btn {
+  //     position: absolute;
+  //     left: 90%;
+  //     top:5%;
+  //     text-decoration: none;
+  //     color: white;
+  //     width: 120px;
+  //     height: 50px;
+  //     background-color: black;
+  //     text-align: center;
+  //     font-size: 2rem;
+
+  //     &:hover {
+  //         text-decoration: underline;
+
+  //     }
+
+  //     span {
+  //         position: relative;
+  //         top: 5px;
+  //     }
+
+  // }
+}
+
+.appointment__page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 80vh;
+  background-color: white;
+  text-align: center;
+
+  .appointment__img {
+    margin: 0 auto;
+    margin-top: 10%;
+    height: 30%;
+    width: 55%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .appointment__description {
+    margin-top: 5%;
+    font-size: 2rem;
+  }
+
+  .appointment__link {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+
+    .appointment__back-btn {
+      position: relative;
+      top: 35%;
+      width: 100%;
+      height: 10%;
+      background-color: black;
+      color: white;
+
+      &:hover {
+        background-color: green;
+      }
+
+      &:hover > span {
+        text-decoration: underline;
+      }
+
+      span {
+        position: relative;
+        font-size: 2rem;
+        top: 25%;
+      }
+    }
+  }
+}

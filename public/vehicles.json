@@ -1,0 +1,71 @@
+{
+  "vehicles": [
+    {
+      "id": "1",
+      "type": "car",
+      "name": "McLaren P1",
+      "year": "2013",
+      "mileage": "32000KM",
+      "horsepower": "903HP",
+      "torque": "963NM",
+      "price": "1 800 000 $",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/2014_McLaren_P1_%28Volcano_Orange%2C_front_left%29%2C_leaving_Greenwich_2018.jpg"
+    },
+
+    {
+      "id": "2",
+      "type": "motorcycle",
+      "name": "Yamaha R6",
+      "year": "2010",
+      "mileage": "124000KM",
+      "horsepower": "124HP",
+      "torque": "65,7NM",
+      "price": "18 000 $",
+      "url": "https://image.ceneostatic.pl/data/products/95238602/i-yamaha-yzf-r6-rj15.jpg"
+    },
+    {
+      "id": "3",
+      "type": "car",
+      "name": "Volkswagen Golf 5",
+      "year": "2006",
+      "mileage": "180000KM",
+      "horsepower": "90HP",
+      "torque": "210NM",
+      "price": "4000$",
+      "url": "https://thumbs.img-sprzedajemy.pl/1000x901c/f0/e5/e4/vw-golf-v-19-tdi-150-stan-idealny-2006-rok-produkcji-2006-golf-otwock-290264037.jpg"
+    },
+    {
+      "id": "4",
+      "type": "motorcycle",
+      "name": "Ducati Panigale V4",
+      "year": "2018",
+      "mileage": "100KM",
+      "horsepower": "214HP",
+      "torque": "124NM",
+      "price": "30 000$",
+      "url": "https://www.motocykl-online.pl/media/lib/2708/raport-z-jazdy-ducati-panigale-v4-r-2019-03-2e2375192c5df64780da0df828a0bbb7.jpg"
+    },
+    {
+      "id": "5",
+      "type": "car",
+      "name": "Subaru WRX STI",
+      "year": "2018",
+      "mileage": "0KM",
+      "horsepower": "305HP",
+      "torque": "393NM",
+      "price": "30 000$",
+      "url": "https://www.autocentrum.pl/ac-file/car-version/5a3d007157502ab0e03ab8fa/subaru-wrx-sti-sedan-facelifting.jpg"
+    },
+    {
+      "id": "6",
+      "type": "car",
+      "name": "Porsche 718 Cayman",
+      "year": "2016",
+      "mileage": "30000KM",
+      "horsepower": "295HP",
+      "torque": "380NM",
+      "price": "40 000$",
+      "url": "https://image.ceneostatic.pl/data/products/73823193/i-porsche-718-cayman-porsche-718-cayman.jpg"
+    }
+  ]
+}

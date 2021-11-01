@@ -1,0 +1,707 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+.start__nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  color: white;
+  z-index: 100; }
+  .start__nav .start__name {
+    position: relative;
+    margin-left: 5%;
+    top: 8px;
+    font-size: 2rem; }
+    .start__nav .start__name .start__logo {
+      position: relative;
+      top: 8px;
+      width: 40px;
+      height: 40px; }
+  .start__nav .start__signin {
+    position: relative;
+    top: 8px;
+    font-size: 2rem;
+    padding: 5px;
+    margin-left: 70%;
+    transition: all 0.1s ease-in-out;
+    text-decoration: none;
+    color: white; }
+  .start__nav .start__signin:hover {
+    text-decoration: underline; }
+
+.start__first-quote {
+  margin-top: 100px;
+  margin-left: 5px;
+  font-size: 3rem;
+  text-align: center; }
+
+.start__car-img {
+  margin-top: 100px;
+  width: 100%;
+  height: 600px;
+  background-position: 50% 55%;
+  background-image: url(../../images/car-start.jpg);
+  background-size: 2124px 1200px; }
+
+.start__sec-quote {
+  margin-top: 120px;
+  margin-left: 5px;
+  font-size: 3rem;
+  text-align: center; }
+
+.start__mid-section {
+  margin-top: 120px;
+  width: 100%;
+  height: 600px; }
+  .start__mid-section .start__left-desc {
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 487.13px;
+    background-color: black; }
+    .start__mid-section .start__left-desc .start__left-title {
+      margin-top: 30px;
+      font-size: 2rem;
+      color: white; }
+    .start__mid-section .start__left-desc hr {
+      margin-top: 30px;
+      width: 75%;
+      border: 1px solid white; }
+    .start__mid-section .start__left-desc .start__left-p {
+      margin-top: 30px;
+      color: white;
+      font-size: 1.5rem;
+      padding: 0 60px; }
+  .start__mid-section .start__mid-desc {
+    position: relative;
+    top: -487px;
+    margin: 0 auto;
+    width: 866px;
+    height: 487.13px;
+    pointer-events: none; }
+  .start__mid-section .start__right-desc {
+    text-align: center;
+    float: right;
+    position: relative;
+    top: -487px;
+    right: 0;
+    width: 500px;
+    height: 487.13px;
+    background-color: black; }
+    .start__mid-section .start__right-desc .start__right-title {
+      margin-top: 30px;
+      font-size: 2rem;
+      color: white; }
+    .start__mid-section .start__right-desc hr {
+      margin-top: 30px;
+      width: 75%;
+      border: 1px solid white; }
+    .start__mid-section .start__right-desc .start__right-p {
+      margin-top: 30px;
+      color: white;
+      font-size: 1.5rem;
+      padding: 0 60px; }
+
+.start__third-quote {
+  position: absolute;
+  left: 50%;
+  top: 190%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem; }
+
+.start__moto-img {
+  margin-top: 200px;
+  width: 100%;
+  height: 600px;
+  background-position: 50% 72%;
+  background-image: url(../../images/motorcycle-start.jpg);
+  background-size: 1950px 1300px; }
+
+.start__footer {
+  padding-top: 1px;
+  text-align: center;
+  margin-top: 200px;
+  height: 80px;
+  width: 100%;
+  background-color: black; }
+  .start__footer .start__credits {
+    color: white;
+    font-size: 1.2rem; }
+    .start__footer .start__credits a {
+      color: white; }
+
+.signin {
+  float: left;
+  width: 30%;
+  height: 100vh;
+  background-color: white;
+  text-align: center;
+  font-size: 1.5rem; }
+  .signin h1 {
+    margin-top: 70px; }
+  .signin .signin__form-wrapper {
+    position: relative;
+    top: 7%; }
+    .signin .signin__form-wrapper .signin__form .signin__input-wrapper {
+      margin-top: 10px;
+      width: 300px;
+      height: 100px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 1.5rem; }
+      .signin .signin__form-wrapper .signin__form .signin__input-wrapper input {
+        width: 250px;
+        height: 25px;
+        font-size: 1rem;
+        border: 3px solid black;
+        transition: all 0.1s ease-in-out; }
+        .signin .signin__form-wrapper .signin__form .signin__input-wrapper input:focus {
+          outline: none;
+          transform: scale(1.1);
+          border: 3px solid green; }
+    .signin .signin__form-wrapper .signin__form .signin__submit {
+      width: 100px;
+      height: 25px;
+      border: 3px solid black;
+      font-size: 1rem;
+      transition: all 0.1s ease-in-out; }
+      .signin .signin__form-wrapper .signin__form .signin__submit:hover {
+        outline: none;
+        transform: scale(1.2);
+        border: 3px solid green;
+        cursor: pointer; }
+      .signin .signin__form-wrapper .signin__form .signin__submit:focus {
+        outline: none;
+        transform: scale(1.2);
+        border: 3px solid green;
+        cursor: pointer; }
+    .signin .signin__form-wrapper .signin__form .signin__register-link {
+      position: relative;
+      top: 10px;
+      font-size: 1rem;
+      color: #b3ab96;
+      text-decoration: underline; }
+      .signin .signin__form-wrapper .signin__form .signin__register-link:hover {
+        cursor: pointer; }
+      .signin .signin__form-wrapper .signin__form .signin__register-link:active {
+        color: black; }
+    .signin .signin__form-wrapper .signin__form .signin__invalid {
+      position: relative;
+      top: 10px;
+      font-size: 1rem;
+      color: red;
+      display: none; }
+
+.signin__decoration {
+  float: right;
+  width: 70%;
+  height: 100vh;
+  background-image: url(../../images/mercedes-signin.jpg);
+  background-position: 90% 100%;
+  background-size: 1500px 1000px; }
+
+.register {
+  float: right;
+  width: 30%;
+  height: 100vh;
+  background-color: white;
+  text-align: center;
+  font-size: 1.5rem; }
+  .register h1 {
+    margin-top: 70px; }
+  .register .register__form-wrapper {
+    position: relative;
+    top: 7%; }
+    .register .register__form-wrapper .register__form .register__input-wrapper {
+      margin-top: 10px;
+      width: 300px;
+      height: 100px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 1.5rem; }
+      .register .register__form-wrapper .register__form .register__input-wrapper input {
+        width: 250px;
+        height: 25px;
+        font-size: 1rem;
+        border: 3px solid black;
+        transition: all 0.1s ease-in-out; }
+        .register .register__form-wrapper .register__form .register__input-wrapper input:focus {
+          outline: none;
+          transform: scale(1.1);
+          border: 3px solid green; }
+    .register .register__form-wrapper .register__form .register__submit {
+      width: 100px;
+      height: 25px;
+      border: 3px solid black;
+      font-size: 1rem;
+      transition: all 0.1s ease-in-out; }
+      .register .register__form-wrapper .register__form .register__submit:hover {
+        outline: none;
+        transform: scale(1.2);
+        border: 3px solid green;
+        cursor: pointer; }
+      .register .register__form-wrapper .register__form .register__submit:focus {
+        outline: none;
+        transform: scale(1.2);
+        border: 3px solid green;
+        cursor: pointer; }
+    .register .register__form-wrapper .register__form .register__login-link {
+      position: relative;
+      top: 10px;
+      font-size: 1rem;
+      color: #b3ab96;
+      text-decoration: underline; }
+      .register .register__form-wrapper .register__form .register__login-link:hover {
+        cursor: pointer; }
+      .register .register__form-wrapper .register__form .register__login-link:active {
+        color: black; }
+    .register .register__form-wrapper .register__form .register__invalid {
+      position: relative;
+      top: 10px;
+      font-size: 1rem;
+      color: red;
+      display: none; }
+
+.register__decoration {
+  width: 70%;
+  height: 100vh;
+  background-image: url(../../images/motorcycle-register.jpg);
+  background-position: center;
+  background-size: 1413px 940px; }
+
+body {
+  overflow-x: hidden; }
+
+.main__nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  color: white;
+  z-index: 1; }
+  .main__nav .main__name {
+    position: relative;
+    margin-left: 5%;
+    top: 8px;
+    font-size: 2rem; }
+    .main__nav .main__name .main__logo {
+      position: relative;
+      top: 8px;
+      width: 40px;
+      height: 40px; }
+  .main__nav .main__navigation {
+    position: relative;
+    top: -50px;
+    margin-left: 75%;
+    padding-top: 15px;
+    width: 500px;
+    height: 40px; }
+    .main__nav .main__navigation .main__filter-btn {
+      font-size: 2rem;
+      padding: 5px;
+      cursor: pointer;
+      transition: all 0.1s ease-in-out;
+      text-decoration: none;
+      color: white; }
+    .main__nav .main__navigation .main__filter-btn:hover {
+      text-decoration: underline; }
+    .main__nav .main__navigation .main__filter-btn:active {
+      color: grey; }
+    .main__nav .main__navigation .main__filter-btn:hover > .main__fil-img {
+      transform: scale(1.2); }
+    .main__nav .main__navigation .main__fil-img {
+      position: relative;
+      top: 4px;
+      left: 4px;
+      width: 36px;
+      height: 36px; }
+    .main__nav .main__navigation .main__menu-btn {
+      margin-left: 30px;
+      font-size: 2rem;
+      cursor: pointer;
+      transition: all 0.1s ease-in-out;
+      text-decoration: none;
+      color: white; }
+    .main__nav .main__navigation .main__menu-btn:hover {
+      text-decoration: underline; }
+    .main__nav .main__navigation .main__menu-btn:active {
+      color: grey; }
+    .main__nav .main__navigation .main__arr-img {
+      position: relative;
+      top: 2px;
+      left: 2px;
+      width: 30px;
+      height: 30px;
+      transition: all 0.1s ease-in-out; }
+    .main__nav .main__navigation .main__arr-img-click-transform {
+      transform: rotate(-90deg); }
+  .main__nav .main__menu {
+    appearance: none;
+    position: relative;
+    left: 78%;
+    top: -28%;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 13px;
+    width: 200px;
+    height: 130px;
+    background-color: black;
+    border-top: 2px solid white;
+    transition: all 0.5s ease-in-out;
+    z-index: 100;
+    display: none; }
+    .main__nav .main__menu hr {
+      border: 1px solid white; }
+    .main__nav .main__menu .main__menu-link {
+      text-decoration: none;
+      color: white; }
+    .main__nav .main__menu .main__menu-link:hover {
+      text-decoration: underline; }
+
+.main__filter {
+  position: relative;
+  left: -100vw;
+  top: 80px;
+  height: 80px;
+  width: 100vw;
+  background-color: #1c1c1a;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+  transition: all 1s ease-in-out; }
+  .main__filter .main__filter-car-btn-container {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%; }
+    .main__filter .main__filter-car-btn-container .main__filter-car-btn-wrapper {
+      width: 100%;
+      height: 100%;
+      background-color: #313336;
+      text-align: center;
+      font-size: 1.5rem; }
+      .main__filter .main__filter-car-btn-container .main__filter-car-btn-wrapper .main__filter-car-btn-description {
+        color: white; }
+    .main__filter .main__filter-car-btn-container .main__filter-car-shape-wrapper {
+      width: 100%;
+      height: 100%;
+      background-color: #454a52; }
+      .main__filter .main__filter-car-btn-container .main__filter-car-shape-wrapper .main__filter-car-shape {
+        position: relative;
+        width: 0;
+        height: 0;
+        border-bottom: 80px solid #313336;
+        border-right: 220px solid transparent;
+        z-index: 1; }
+  .main__filter .main__filter-car-btn-wrapper:hover {
+    cursor: pointer; }
+    .main__filter .main__filter-car-btn-wrapper:hover .main__filter-car-btn-description {
+      color: green !important; }
+    .main__filter .main__filter-car-btn-wrapper:hover .main__filter-car-btn-img {
+      filter: invert(18%) sepia(94%) saturate(3120%) hue-rotate(112deg) brightness(100%) contrast(106%); }
+  .main__filter .main__filter-car-btn-wrapper:active .main__filter-car-btn-description {
+    padding-top: 10px;
+    font-size: 1rem; }
+  .main__filter .main__filter-car-btn-wrapper:active .main__filter-car-btn-img {
+    width: 30px;
+    height: 30px; }
+  .main__filter .main__filter-car-active .main__filter-car-btn-description {
+    color: green !important; }
+  .main__filter .main__filter-car-active .main__filter-car-btn-img {
+    filter: invert(18%) sepia(94%) saturate(3120%) hue-rotate(112deg) brightness(100%) contrast(106%) !important;
+    padding-top: 1px; }
+  .main__filter .main__filter-search-container {
+    width: 100%;
+    height: 80px;
+    background-color: #454a52;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    color: white; }
+    .main__filter .main__filter-search-container .main__filter-search-input-description {
+      font-size: 1.5rem; }
+    .main__filter .main__filter-search-container input {
+      position: relative;
+      top: 0px;
+      width: 300px;
+      height: 30px;
+      font-size: 1.5rem;
+      border: 1px solid black;
+      transition: all 0.1s ease-in-out; }
+      .main__filter .main__filter-search-container input:focus {
+        outline: none;
+        transform: scale(1.1);
+        border: 3px solid black; }
+  .main__filter .main__filter-moto-btn-container {
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%; }
+    .main__filter .main__filter-moto-btn-container .main__filter-moto-shape-wrapper {
+      width: 100%;
+      height: 100%;
+      background-color: #454a52; }
+      .main__filter .main__filter-moto-btn-container .main__filter-moto-shape-wrapper .main__filter-moto-shape {
+        float: right;
+        width: 0;
+        height: 0;
+        border-top: 80px solid #313336;
+        border-left: 220px solid transparent; }
+    .main__filter .main__filter-moto-btn-container .main__filter-moto-btn-wrapper {
+      width: 100%;
+      height: 100%;
+      background-color: #313336;
+      text-align: center;
+      font-size: 1.5rem; }
+      .main__filter .main__filter-moto-btn-container .main__filter-moto-btn-wrapper .main__filter-car-moto-description {
+        color: white; }
+
+.main__filter-moto-btn-wrapper:hover {
+  cursor: pointer; }
+  .main__filter-moto-btn-wrapper:hover .main__filter-car-moto-description {
+    color: green !important; }
+  .main__filter-moto-btn-wrapper:hover .main__filter-moto-btn-img {
+    filter: invert(18%) sepia(94%) saturate(3120%) hue-rotate(112deg) brightness(100%) contrast(106%); }
+
+.main__filter-moto-btn-wrapper:active .main__filter-car-moto-description {
+  padding-top: 15px;
+  font-size: 1rem; }
+
+.main__filter-moto-btn-wrapper:active .main__filter-moto-btn-img {
+  width: 30px;
+  height: 30px; }
+
+.main__shop {
+  position: absolute;
+  top: 80px;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll; }
+  .main__shop .product__shop-product {
+    margin: 0 auto;
+    width: 1200px;
+    height: 200px;
+    border: 2px solid black;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    flex-direction: row; }
+    .main__shop .product__shop-product .product__img {
+      height: 100%;
+      width: 30%;
+      background-position: center;
+      background-size: cover; }
+    .main__shop .product__shop-product .product__specifications {
+      height: 100%;
+      width: 70%;
+      margin: 1% 0 0 1%; }
+      .main__shop .product__shop-product .product__specifications .product__title {
+        font-size: 50px;
+        font-weight: bold; }
+      .main__shop .product__shop-product .product__specifications .product__description {
+        font-size: 20px; }
+        .main__shop .product__shop-product .product__specifications .product__description > span {
+          margin-left: 50px; }
+      .main__shop .product__shop-product .product__specifications .product__price {
+        font-size: 30px;
+        margin-top: 5%; }
+      .main__shop .product__shop-product .product__specifications .product__btn {
+        position: relative;
+        left: 70%;
+        bottom: 20%;
+        width: 220px;
+        height: 40px;
+        border-radius: 25px 25px;
+        background-color: black;
+        border: none;
+        color: white;
+        transition: all 0.1s ease-in-out; }
+        .main__shop .product__shop-product .product__specifications .product__btn:hover {
+          background-color: green;
+          cursor: pointer; }
+        .main__shop .product__shop-product .product__specifications .product__btn:active {
+          border: none;
+          transform: scale(0.9); }
+        .main__shop .product__shop-product .product__specifications .product__btn:focus {
+          outline: none; }
+
+.main__filter-hidden {
+  animation: goLeft 1s ease-in-out;
+  animation-fill-mode: forwards; }
+
+.main__filter-visible {
+  animation: goRight 0.5s ease-in-out;
+  animation-fill-mode: forwards; }
+
+@keyframes goLeft {
+  from {
+    left: 0; }
+  to {
+    left: -100vw; } }
+
+@keyframes goRight {
+  from {
+    left: -100vw; }
+  to {
+    left: 0; } }
+
+.main__shop-without-filter {
+  animation: goUp 0.8s ease-in-out;
+  animation-fill-mode: forwards; }
+
+.main__shop-with-filter {
+  animation: goDown 0.5s ease-in-out;
+  animation-fill-mode: forwards; }
+
+@keyframes goUp {
+  from {
+    top: 160px; }
+  to {
+    top: 80px; } }
+
+@keyframes goDown {
+  from {
+    top: 80px; }
+  to {
+    top: 160px; } }
+
+.profile__wrapper {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../images/blackmaterial-profile.jpg"); }
+  .profile__wrapper .profile__back-btn {
+    position: absolute;
+    left: 90%;
+    top: 5%;
+    text-decoration: none;
+    color: white;
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem; }
+    .profile__wrapper .profile__back-btn:hover {
+      text-decoration: underline; }
+    .profile__wrapper .profile__back-btn span {
+      position: relative;
+      top: 5px; }
+
+.profile__page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 60vh;
+  background-color: white;
+  margin-left: 10px; }
+  .profile__page h1 {
+    text-align: center; }
+  .profile__page .profile__inside-wrapper {
+    margin-left: 20px;
+    font-size: 1.5rem; }
+    .profile__page .profile__inside-wrapper input {
+      width: 250px;
+      height: 25px;
+      font-size: 1rem; }
+      .profile__page .profile__inside-wrapper input:focus {
+        outline: none; }
+    .profile__page .profile__inside-wrapper .profile__submit-btn {
+      margin-top: 10px;
+      width: 258px;
+      height: 30px;
+      background-color: white;
+      color: black; }
+      .profile__page .profile__inside-wrapper .profile__submit-btn:focus {
+        outline: none;
+        border: 3px solid green;
+        transform: scale(1.01); }
+      .profile__page .profile__inside-wrapper .profile__submit-btn:hover {
+        outline: none;
+        border: 3px solid green;
+        cursor: pointer;
+        transform: scale(1.01); }
+    .profile__page .profile__inside-wrapper p {
+      font-size: 1rem;
+      color: red; }
+  .profile__page .profile__del-btn {
+    text-decoration: none;
+    color: white;
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    transition: all 0.01s ease-in-out;
+    font-size: 1rem;
+    position: relative;
+    top: 35%;
+    margin-left: 20px; }
+    .profile__page .profile__del-btn:hover {
+      text-decoration: underline;
+      cursor: pointer;
+      background-color: red; }
+    .profile__page .profile__del-btn:active {
+      transform: scale(0.9); }
+    .profile__page .profile__del-btn:focus {
+      outline: none; }
+
+.appointment__wrapper {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../images/blackmaterial-profile.jpg"); }
+
+.appointment__page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 80vh;
+  background-color: white;
+  text-align: center; }
+  .appointment__page .appointment__img {
+    margin: 0 auto;
+    margin-top: 10%;
+    height: 30%;
+    width: 55%;
+    background-position: center;
+    background-size: cover; }
+  .appointment__page .appointment__description {
+    margin-top: 5%;
+    font-size: 2rem; }
+  .appointment__page .appointment__link {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out; }
+    .appointment__page .appointment__link .appointment__back-btn {
+      position: relative;
+      top: 35%;
+      width: 100%;
+      height: 10%;
+      background-color: black;
+      color: white; }
+      .appointment__page .appointment__link .appointment__back-btn:hover {
+        background-color: green; }
+      .appointment__page .appointment__link .appointment__back-btn:hover > span {
+        text-decoration: underline; }
+      .appointment__page .appointment__link .appointment__back-btn span {
+        position: relative;
+        font-size: 2rem;
+        top: 25%; }
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif; }
