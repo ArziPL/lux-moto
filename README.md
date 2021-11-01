@@ -1,43 +1,17 @@
-<h1 align="center">Welcome to lux-moto 👋</h1>
-<p>
-  <a href="https://github.com/ArziPL/lux-moto" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/ArziPL/lux-moto/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-</p>
+# <div align="center">lux-moto</div>
+***
+#### INTRODUCTION
+First bigger project, inspired by homework assignment. I learnt a lot about React/SCSS, first time doing "few sites" with React thanks to react-router, a lot of SCSS grind through.
 
-> First bigger React project
+#### DESCRIPTION
+Start page component with cool design. Login/register components with validation. Main component which takes data from public/vehicles.json, then render it with the possibility of filtering. Little components to theoretically show profile and after clicking "MAKE AN APPOINTMENT".
 
-### ✨ [Demo](https://github.com/ArziPL/lux-moto)
+#### USED TECHNOLOGIES
+React, SCSS
 
-## Install
-
-```sh
-npm install
-```
-
-## Usage
-
-```sh
-npm start
-```
-
-## Author
-
-👤 **Arkadiusz Ogryzek**
-
-* Github: [@ArziPL](https://github.com/ArziPL)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-## 📝 License
-
-Copyright © 2021 [Arkadiusz Ogryzek](https://github.com/ArziPL).<br />
-This project is [MIT](https://github.com/ArziPL/lux-moto/blob/master/LICENSE) licensed.
+#### HOW TO
+Open folder with project files, run `npm install` to install all necessary dependencies, then run `npm start`. Site should be available at `localhost:3000`
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+
+<div align="center">Hope you had a good time here. If you liked the project, leave a ⭐ and visit <a href="https://github.com/ArziPL">my profile</a> to send feedback, check other projects, or make something cool together</p> 
