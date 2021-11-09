@@ -1,17 +1,27 @@
 # <div align="center">lux-moto</div>
 ***
-#### INTRODUCTION
-First bigger project, inspired by homework assignment. I learnt a lot about React/SCSS, first time doing "few sites" with React thanks to react-router, a lot of SCSS grind through.
+### DESCRIPTION
+Aim of project :  
+Homework for month of IT practice in school. Proposition from teacher was to make shop about car parts, but i don't know car parts so i decided to make shop about expensive cars (who doesn't like them)  
 
-#### DESCRIPTION
-Start page component with cool design. Sign in button to Login/register components with validation (log in with anything then "test/test"). Main component which takes data from public/vehicles.json, then render it with the possibility of filtering. Little components to theoretically show profile and after clicking "MAKE AN APPOINTMENT".
+Description :  
+Home page, login/register site with validation (don't use "test" anywhere). Main page which fetch data from public/vehicles.json. Possibility of filtering. 
 
-#### USED TECHNOLOGIES
-React, SCSS
+ToDo :  
+- **finished ?**
+- better styles at shop page
+- repair animation of filter panel at shop page
+- better components "after clicking buy" and "to user profile"
+- make server/database, make a fully functioning application ?
 
-#### HOW TO
-Open folder with project files, run `npm install` to install all necessary dependencies, then run `npm start`. Site should be available at `localhost:3000`
+### USED TECHNOLOGIES
+<span>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>  
+<img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"/>  
+</span>  
 
+### HOW TO
+IN PROJECT FOLDER : `npm install` => `npm start`
 ***
 
 <div align="center">Hope you had a good time here. If you liked the project, leave a ⭐ and visit <a href="https://github.com/ArziPL">my profile</a> to send feedback, check other projects, or make something cool together</p> 
